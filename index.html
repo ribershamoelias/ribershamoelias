@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Riber Shamo Elias | Open Systems</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navigation -->
+<nav class="nav">
+    <div class="nav-inner">
+        <div class="brand">RIBER SHAMO ELIAS</div>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <div class="links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#systems">RSE Systems</a>
+            <a href="#today">Today</a>
+            <a href="mailto:r.s.elias@proton.me" class="cta">Contact</a>
+        </div>
+    </div>
+</nav>
+
+<main>
+
+<header class="hero">
+    <h1>
+        Simplicity is<br>
+        <span id="typing"></span><span class="cursor"></span>
+    </h1>
+
+    <p class="subtitle">
+        Applied Mathematics · Open Systems · Infrastructure Thinking
+    </p>
+</header>
+
+<section id="about" class="section narrow">
+    <h2>About</h2>
+    <p class="lead">
+        I am a student of Applied Mathematics — and a student of structure.
+    </p>
+    <p>
+        Mathematics taught me that elegance is reduction.
+        True engineering removes until only what must exist remains.
+    </p>
+</section>
+
+<section id="systems" class="section alt">
+    <div class="narrow">
+        <h2>RSE Systems</h2>
+        <p class="lead">
+            An independent IT laboratory.
+        </p>
+        <p>
+            It was never meant to become an agency — it was an experiment in understanding real infrastructure.
+        </p>
+    </div>
+</section>
+
+<section id="today" class="section bento-section">
+    <div class="container">
+        <h2>Today</h2>
+
+        <div class="bento">
+
+            <div class="bento-item large">
+                <span class="bento-label">Current Focus</span>
+                <h3>Open Systems</h3>
+                <p>Infrastructure that remains understandable over decades.</p>
+            </div>
+
+            <div class="bento-item">
+                <span class="bento-label">Method</span>
+                <h3>Mathematical Thinking</h3>
+                <p>Reduction. Structure. Proof over assumption.</p>
+            </div>
+
+            <div class="bento-item">
+                <span class="bento-label">Tools</span>
+                <h3>Open Source</h3>
+                <p>Control belongs to engineers — not vendors.</p>
+            </div>
+
+            <div class="bento-item wide">
+                <span class="bento-label">Direction</span>
+                <h3>European Digital Sovereignty</h3>
+                <p>Transparent, durable infrastructure.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Less. Clearer. Stronger.</p>
+</footer>
+
+</main>
+
+<script>
+function toggleMenu(){
+    document.getElementById("navLinks").classList.toggle("active");
+}
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
